@@ -4,29 +4,35 @@
     {
         static void Main(string[] args)
         {
-            /* 1
+            /*
             for(int i =1; i<=5; i++)
             {
-                Console.WriteLine();
+               
                 for (int j = 1; j <= i; j++)
                 {
                     Console.Write("*");
                 }
+
+                Console.WriteLine();
+            }
             */
 
-            /* 2
+
+            /*
             for (int i = 1; i <=5; i++)
             {
-                Console.WriteLine();
+                
 
                 for(int j = 5; j>=i; j--)
                 {
                     Console.Write("*");
                 }
             
+            Console.WriteLine();
             }
             */
 
+            /* 3
             for (int i = 1; i <= 10; i++)
             {
                 int a = i;
@@ -42,7 +48,8 @@
                 }
 
             }
+            */
 
-         }
+        }
     }
 }
