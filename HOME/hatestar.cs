@@ -4,12 +4,9 @@
     {
         static int Test (int a)
         {
-
-
             a++;
-            Console.WriteLine(a);
 
-            return a;
+            return a +1;
         }
 
         static void Main(string[] args)
@@ -72,7 +69,9 @@
             string a = Console.ReadLine();
             int b = int.Parse(a);
 
-            Test(b);
+            int c=  Test(b);
+
+            Console.WriteLine(c);
 
         }
     }
