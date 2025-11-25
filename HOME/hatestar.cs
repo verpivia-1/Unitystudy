@@ -48,16 +48,18 @@
 
             }
             */
+            int a = 0;
 
-            for (int i = 1; i <= 3; i++)
+            for(int i= 1; i <=10; i++ )
             {
-                    for(int j = 3; j >=i; j--)
-                {
-                    Console.Write("*");
-                }
-
-                Console.WriteLine();
+                
+                a += i;
+                
+             
+                
+                
             }
+            Console.WriteLine(a);
 
         }
     }
