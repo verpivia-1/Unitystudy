@@ -2,6 +2,16 @@
 {
     internal class Program
     {
+        static int Test (int a)
+        {
+
+
+            a++;
+            Console.WriteLine(a);
+
+            return a;
+        }
+
         static void Main(string[] args)
         {
             /*
@@ -48,18 +58,21 @@
 
             }
             */
+
+            /* 4
             int a = 0;
 
             for(int i= 1; i <=10; i++ )
             {
-                
                 a += i;
-                
-             
-                
-                
             }
             Console.WriteLine(a);
+            */
+
+            string a = Console.ReadLine();
+            int b = int.Parse(a);
+
+            Test(b);
 
         }
     }
